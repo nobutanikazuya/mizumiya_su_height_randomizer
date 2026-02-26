@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "水宮枢身長ランダマイザ",
+    "version": "1.0",
+    "description": "水宮枢の身長を0から200cmの間で変化させます",
+    "content_scripts": [
+        {
+            "matches": ["https://hololive.hololivepro.com/talents/mizumiya-su/"],
+            "js": ["content.js"]
+        }
+    ],
+    "icons": {
+        "128": "枢のアホ毛.png"
+    }
+}
